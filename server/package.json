@@ -1,0 +1,16 @@
+{
+  "name": "rastros-snake-matchmaking",
+  "version": "1.0.0",
+  "description": "Servidor de matchmaking Socket.IO para Rastros Snake",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}

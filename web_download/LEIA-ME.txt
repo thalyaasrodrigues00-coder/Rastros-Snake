@@ -1,0 +1,103 @@
+═══════════════════════════════════════════════════════════
+  COMO COLOCAR O DOWNLOAD NO SEU SITE (PASSO A PASSO)
+═══════════════════════════════════════════════════════════
+
+Você precisa de 2 coisas na internet:
+  1) Sua página (com o botão)
+  2) O arquivo do jogo: RastrosSnake.apk (87 MB)
+
+───────────────────────────────────────────────────────────
+PASSO 1 — Pegue o arquivo do jogo no seu PC
+───────────────────────────────────────────────────────────
+
+Abra esta pasta no computador:
+
+  c:\jogo da cobrinha\web_download\
+
+Copie o arquivo:
+
+  RastrosSnake.apk
+
+(Esse é o jogo pronto para instalar no celular Android.)
+
+───────────────────────────────────────────────────────────
+PASSO 2 — Entre no painel do seu site (hospedagem)
+───────────────────────────────────────────────────────────
+
+Exemplos de onde entrar:
+  • Hostinger → Gerenciador de arquivos
+  • cPanel → Gerenciador de Arquivos
+  • Locaweb, UOL Host, etc. → Arquivos / FTP
+
+Entre na pasta pública do site. Geralmente se chama:
+  public_html   ou   www   ou   htdocs
+
+(Essa é a pasta que vira o endereço www.seusite.com.br)
+
+───────────────────────────────────────────────────────────
+PASSO 3 — Envie o APK para o site
+───────────────────────────────────────────────────────────
+
+No gerenciador de arquivos, clique em ENVIAR / UPLOAD.
+
+Selecione:  RastrosSnake.apk
+
+Aguarde terminar (pode demorar alguns minutos — 87 MB).
+
+Depois do upload, o arquivo deve aparecer na lista, por exemplo:
+  public_html/RastrosSnake.apk
+
+───────────────────────────────────────────────────────────
+PASSO 4 — Coloque o botão na sua página
+───────────────────────────────────────────────────────────
+
+Abra o arquivo:  botao-copiar.html  (nesta mesma pasta)
+
+Copie TODO o código e cole na sua página do site.
+
+OU, se preferir só uma linha, use isto no botão:
+
+  <a href="RastrosSnake.apk">Baixar Jogo</a>
+
+Se o botão e o APK estão na MESMA pasta do site, funciona.
+
+───────────────────────────────────────────────────────────
+PASSO 5 — Teste no celular
+───────────────────────────────────────────────────────────
+
+1. Abra seu site no Chrome do celular Android
+2. Toque no botão "Baixar"
+3. Quando baixar, abra o arquivo .apk
+4. Se pedir, permita "Instalar apps desconhecidos"
+5. Instale e jogue (celular na horizontal)
+
+───────────────────────────────────────────────────────────
+SE O BOTÃO NÃO BAIXAR (problemas comuns)
+───────────────────────────────────────────────────────────
+
+❌ Erro: botão não faz nada / página 404
+   → O APK não foi enviado para o site, ou está em outra pasta.
+   → Solução: suba RastrosSnake.apk na mesma pasta da página.
+
+❌ Erro: link tipo file:/// ou C:\...
+   → Isso NÃO funciona na internet. O APK precisa estar NO SITE.
+
+❌ Erro: botão abre página em branco
+   → Use o link completo no href:
+     href="https://www.SEUSITE.com.br/RastrosSnake.apk"
+   (troque SEUSITE pelo seu domínio real)
+
+❌ Erro: "não foi possível instalar"
+   → No Android: Configurações → Segurança → permitir instalar
+     de fontes desconhecidas (ou permitir só para o Chrome).
+
+───────────────────────────────────────────────────────────
+ARQUIVOS NESTA PASTA
+───────────────────────────────────────────────────────────
+
+  RastrosSnake.apk      ← envie ESTE para o site
+  botao-copiar.html      ← copie o botão daqui
+  index.html             ← página pronta (opcional)
+  LEIA-ME.txt            ← este guia
+
+═══════════════════════════════════════════════════════════

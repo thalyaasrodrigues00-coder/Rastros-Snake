@@ -1,0 +1,33 @@
+name: rastros_snake
+description: "Jogo 2D da cobrinha estilo io - Rastros Snake"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.0.0
+  shared_preferences: ^2.5.5
+  url_launcher: ^6.2.5
+  google_mobile_ads: ^5.3.1
+  permission_handler: 12.0.1
+  connectivity_plus: ^7.3.1
+  vector_math: ^2.2.0
+  flame: ^1.38.0
+  bonfire: ^3.17.2
+  socket_io_client: ^3.1.2
+  flutter_webrtc: ^0.12.12
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/

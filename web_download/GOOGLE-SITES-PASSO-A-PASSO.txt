@@ -1,0 +1,94 @@
+═══════════════════════════════════════════════════════════
+  RASTROS SNAKE — DOWNLOAD NO GOOGLE SITES
+  Site: https://sites.google.com/view/aplicativosthalli
+═══════════════════════════════════════════════════════════
+
+O Google Sites NÃO aceita arquivo .apk dentro da página.
+Você precisa:
+  1) Subir o APK no Google Drive
+  2) Copiar o link de download
+  3) Colar esse link no botão DOWNLOAD do site
+
+───────────────────────────────────────────────────────────
+PARTE 1 — SUBIR O APK NO GOOGLE DRIVE
+───────────────────────────────────────────────────────────
+
+1. Abra: https://drive.google.com
+
+2. Clique em "+ Novo" → "Upload de arquivo"
+
+3. Escolha o arquivo do seu PC:
+   c:\jogo da cobrinha\web_download\RastrosSnake.apk
+
+4. Aguarde o upload terminar (87 MB — pode demorar).
+
+5. Clique com botão direito no arquivo RastrosSnake.apk
+
+6. Clique em "Compartilhar" ou "Share"
+
+7. Em "Acesso geral" escolha:
+   "Qualquer pessoa com o link" → "Leitor"
+
+8. Clique em "Copiar link" e depois "Concluído"
+
+───────────────────────────────────────────────────────────
+PARTE 2 — CRIAR O LINK DE DOWNLOAD
+───────────────────────────────────────────────────────────
+
+O link que o Google copia NÃO baixa direto. Precisa converter.
+
+Exemplo de link copiado:
+https://drive.google.com/file/d/1ABC123XYZ456/view?usp=sharing
+
+O código no meio (entre /d/ e /view) é o ID do arquivo.
+Exemplo: 1ABC123XYZ456
+
+Monte o link de download assim:
+https://drive.google.com/uc?export=download&id=1ABC123XYZ456
+
+(Troque 1ABC123XYZ456 pelo SEU id real)
+
+───────────────────────────────────────────────────────────
+PARTE 3 — COLOCAR NO BOTÃO DO GOOGLE SITES
+───────────────────────────────────────────────────────────
+
+1. Abra seu site para editar:
+   https://sites.google.com/view/aplicativosthalli
+
+2. Clique no botão "Editar" (ícone de lápis)
+
+3. Clique no botão "DOWNLOAD" da página
+
+4. Clique no link 🔗 ou "Inserir link"
+
+5. Cole o link de download do Drive:
+   https://drive.google.com/uc?export=download&id=SEU_ID_AQUI
+
+6. Marque "Abrir em nova guia" (opcional)
+
+7. Clique em "Publicar" no canto superior direito
+
+───────────────────────────────────────────────────────────
+PARTE 4 — TESTAR NO CELULAR
+───────────────────────────────────────────────────────────
+
+1. Abra no Chrome do Android:
+   https://sites.google.com/view/aplicativosthalli/início
+
+2. Toque em DOWNLOAD
+
+3. Se aparecer aviso do Google Drive sobre vírus, toque em
+   "Fazer download mesmo assim"
+
+4. Abra o arquivo baixado e instale
+
+───────────────────────────────────────────────────────────
+SE AINDA NÃO FUNCIONAR
+───────────────────────────────────────────────────────────
+
+• Confirme que o Drive está "Qualquer pessoa com o link"
+• O botão deve ter o link uc?export=download (não o link /view)
+• Teste o link de download no celular ANTES de publicar o site
+• Não use "Inserir → Drive" para APK — use link externo no botão
+
+═══════════════════════════════════════════════════════════
